@@ -1,6 +1,6 @@
 import { getStringInfo, toUpperCase } from "../app/Utils";
 
-describe("Utils test suite", () => {
+describe("Beginner: Utils test suite", () => {
   it("should return uppercase of valid string", () => {
     // ! AAA principles
     // * arrange:
@@ -15,7 +15,7 @@ describe("Utils test suite", () => {
     expect(actual).toBe(expected);
   });
 
-  describe.only("toUpperCase examples", () => {
+  describe("toUpperCase examples", () => {
     it.each([
       { input: "abc", expected: "ABC" },
       { input: "My-String", expected: "MY-STRING" },

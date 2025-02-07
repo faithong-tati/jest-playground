@@ -5,6 +5,10 @@ const config: Config.InitialOptions = {
   testEnvironment: "node",
   // verbose: show more info in console
   verbose: true,
+  collectCoverage: true,
+  collectCoverageFrom: [
+    '<rootDir>/src/app/**/*.ts'
+  ]
 };
 
 export default config;
